@@ -63,7 +63,7 @@ out = True
 # Colors
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
-BLACK = (0, 0, 0)
+BG_COLOR = (51, 0, 25)
 PINK = (219, 112, 147)
 LIGHT_PINK = (255, 182, 193)
 SOFTER_PINK = (255, 204, 213)
@@ -219,7 +219,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill(BLACK)
+    screen.fill(BG_COLOR)
     heart_beat(heart_data,heart_data_root,0)
     
     for p in heart_data:
