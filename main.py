@@ -2,12 +2,13 @@
 Heart Effect Description
 
 Author: duyanhle
-Last Modified: February 13, 2025
-This heart effect is created using Pygame, combining various dynamic visual elements:
+Last Modified: February 27, 2025
 
-Heartbeat Effect: The heart expands and contracts rhythmically, with a slowing expansion and an accelerating contraction for a more natural pulse.
-Glowing Gradient: The heart's color fades smoothly from deep pink to a softer shade, creating a glowing effect.
-This effect can be used for animations, Valentine's Day themes
+This heart effect is created using Pygame.
+
+Heartbeat Animation: The heart expands and contracts rhythmically, with a slower expansion and a quicker contraction to mimic a natural pulse.
+Glowing Gradient: The heart smoothly transitions from deep pink to a softer shade, creating a gentle glowing effect.
+This effect is perfect for animations and themed events like Valentine’s Day, International Women’s Day, and more.
 
 """
 import pygame
